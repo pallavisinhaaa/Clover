@@ -96,19 +96,9 @@ input, button {
 #result {
     margin-top: 20px;
 }
-@media (max-width: 768px) {
-    .container {
-        width: 90%;
+@media screen and (max-width:600px)
+{
+    input{
+        width:50%;
     }
 }
-
-@media (max-width: 480px) {
-    .temp {
-        font-size: 28px;
-    }
-
-    .city, #wind-speed {
-        font-size: 18px;
-    }
-}
-    
